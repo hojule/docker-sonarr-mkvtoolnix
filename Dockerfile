@@ -22,6 +22,7 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y \
+    mkvtoolnix \
     jq \
     mediainfo \
     libmono-system-net-http4.0-cil \
